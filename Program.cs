@@ -29,7 +29,7 @@
                 _nombre1 = Console.ReadLine();
             }
 
-            Console.WriteLine("Ingrese el precio del producto:");
+            Console.WriteLine("\nIngrese el precio del producto:");
             decimal _precio1;
             // Validación del precio para que sea mayor a cero y que sea un número decimal válido
             while (!decimal.TryParse(Console.ReadLine(), out _precio1) || _precio1 <= 0)
@@ -37,7 +37,7 @@
                 Console.Write("\n¡Error! Precio inválido.\n Ingrese un precio mayor que cero: ");
             }
 
-            Console.WriteLine("Ingrese la cantidad del producto:");
+            Console.WriteLine("\nIngrese la cantidad del producto:");
             int _cantidad1;
             while (!int.TryParse(Console.ReadLine(), out _cantidad1) || _cantidad1 < 0)
             {
@@ -64,14 +64,14 @@
                 _nombre2 = Console.ReadLine();
             }
 
-            Console.WriteLine("Ingrese el precio del producto:");
+            Console.WriteLine("\nIngrese el precio del producto:");
             decimal _precio2;
             while (!decimal.TryParse(Console.ReadLine(), out _precio2) || _precio2 <= 0)
             {
                 Console.Write("\n¡Error! Precio inválido.\n Ingrese un precio mayor que cero: ");
             }
 
-            Console.WriteLine("Ingrese la cantidad del producto:");
+            Console.WriteLine("\nIngrese la cantidad del producto:");
             int _cantidad2;
             while (!int.TryParse(Console.ReadLine(), out _cantidad2) || _cantidad2 < 0)
             {
@@ -97,14 +97,14 @@
                 _nombre3 = Console.ReadLine();
             }
 
-            Console.WriteLine("Ingrese el precio del producto:");
+            Console.WriteLine("\nIngrese el precio del producto:");
             decimal _precio3;
             while (!decimal.TryParse(Console.ReadLine(), out _precio3) || _precio3 <= 0)
             {
                 Console.Write("\n¡Error! Precio inválido.\n Ingrese un precio mayor que cero: ");
             }
 
-            Console.WriteLine("Ingrese la cantidad del producto:");
+            Console.WriteLine("\nIngrese la cantidad del producto:");
             int _cantidad3;
             while (!int.TryParse(Console.ReadLine(), out _cantidad3) || _cantidad3 < 0)
             {
