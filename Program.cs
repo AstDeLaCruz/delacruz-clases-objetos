@@ -31,6 +31,7 @@
 
             Console.WriteLine("Ingrese el precio del producto:");
             decimal _precio1;
+            // Validación del precio para que sea mayor a cero y que sea un número decimal válido
             while (!decimal.TryParse(Console.ReadLine(), out _precio1) || _precio1 <= 0)
             {
                 Console.Write("\n¡Error! Precio inválido.\n Ingrese un precio mayor que cero: ");

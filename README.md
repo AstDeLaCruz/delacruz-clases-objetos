@@ -44,3 +44,6 @@ El programa muestra:
 
 ### Validación del producto 2
 ![Validación 2](Capturas/ValidacionProductos2.png)
+
+### Cantidad Cero
+![Cantidad Cero](Capturas/CantidadCero.png)
