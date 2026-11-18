@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ControlInventarioTecnoPuntoo": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
